@@ -1,0 +1,168 @@
+
+body {
+
+   color: #40514E;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   margin: 0 0 0 0;
+
+
+
+}
+
+h1 {
+  font-size: 5.625rem; /* root em - ignores parent font setting */
+  line-height: 1;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento',cursive;
+  color: #66BFBF;
+
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 2.5rem; /* 1em = 16px */
+  font-weight: bold;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #EAF6F6
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  position:relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 0 65px 0 65px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 50px;
+
+}
+
+.dot-border{
+ border-style: dotted none none none;
+ height: 7px;
+ border-width:7px;
+ border-color: #EAF6F6;
+ width: 6%;
+ }
+
+ .footer-copyright{
+   color: #EAF6F6;
+   margin-top: 40px;
+ }
+
+ .footer-link{
+   color: #11999E;
+   padding:50px 20px 0 20px;
+   text-decoration: none;
+
+ }
+
+.para{
+  text-align: left;
+}
+
+.profile{
+  margin: 70px auto 70px auto;
+  line-height: 2;
+  text-align: center;
+
+}
+
+.profile-img{
+  height: 15%;
+  width: 15%;
+}
+
+.skills{
+  margin: 65px 50px 65px 50px;
+  line-height: 2;
+
+}
+
+.skill-img1{
+  float: left;
+  margin-right: 30px;
+  height:15%;
+  width:15%;
+
+}
+
+.skill-img2{
+  float: right;
+  margin-left: 30px;
+  height:15%;
+  width:15%;
+}
+.skill-row1{
+  text-align: left;
+}
+
+.skill-row2{
+  margin: 50px 0 100px 0;
+  text-align: left;
+
+}
+
+
+.top-cloud{
+  position: relative;
+  left: 400px;
+  top:10px;
+}
+
+.bottom-cloud{
+  position: relative;
+  right:10px;
+  bottom:300px;
+}
+
+.BUTTON_WDG {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: rgba(255, 255, 255, 0.94);
+   font-family: Helvetica;
+   font-size: 20px;
+   font-weight: 300;
+   padding: 14px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px 0 50px 0;
+}
+
+.BUTTON_WDG:hover {
+   background: #11999E;
+   border: solid #11999E 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
